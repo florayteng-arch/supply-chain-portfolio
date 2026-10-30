@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flora T - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Flora T
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          fty@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Flora T! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Supply Chain Analyst with 6 years of professional experience in supply chain operations, data analysis, and business process improvement. I enjoy turning complex data into actionable insights to support better business decisions. I am currently expanding my technical skills by learning HTML, CSS, and JavaScript, with the goal of combining supply chain expertise with data analytics and technology.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>Currently Learning</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>Currently Learning</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+<!-- Skill 3: CSS -->
+<div class="skill">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS logo"/>
+    <h6>CSS</h6>
+    <p>Currently Learning</p>
+  </div>
+  
+  <!-- Skill 4: Supply Chain Analysis -->
+  <div class="skill">
+    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/svgs/solid/box.svg" alt="Supply Chain icon"/>
+    <h6>Supply Chain Analysis</h6>
+    <p>6 Years Experience</p>
+  </div>
+  
+  <!-- Skill 5: Data Analysis -->
+  <div class="skill">
+    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/svgs/solid/chart-line.svg" alt="Data Analysis icon"/>
+    <h6>Data Analysis</h6>
+    <p>Professional Experience</p>
+  </div>
+  
+
+      </div>
+    </section>
+          
+    
+<!-- Projects -->
+<section class="projects" id="projects">
+    <h2>
+      Projects
+    </h2>
+    <div style="clear:both;"></div>
+  
+    <div id="projects-container" class="projects-container">
+  
+      <div class="project-card">
+        <h3>Inventory Management Dashboard</h3>
+        <ul>
+          <li>
+            Portfolio concept: An inventory management dashboard
+            designed to monitor stock levels, identify low-stock
+            items, and support timely replenishment decisions
+            to improve inventory efficiency.
+          </li>
+        </ul>
+      </div>
+  
+      <hr>
+  
+      <div class="project-card">
+        <h3>Demand Forecasting Analysis</h3>
+        <ul>
+          <li>
+            Portfolio concept: A demand forecasting analysis
+            using historical sales data to identify trends,
+            anticipate future demand, and support inventory
+            planning and supply chain decisions.
+          </li>
+        </ul>
+      </div>
+  
+      <hr>
+  
+      <div class="project-card">
+        <h3>Supply Chain Performance Dashboard</h3>
+        <ul>
+          <li>
+            Portfolio concept: A supply chain performance
+            dashboard designed to track key performance
+            indicators (KPIs), including on-time delivery,
+            order fulfillment, and supplier performance
+            to support operational improvements.
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+  
+    
+<!-- Recommendations -->
+<section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+  
+    <div class="all_recommendations" id="all_recommendations">
+  
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Flora demonstrates strong analytical thinking and a
+        solid understanding of supply chain operations.
+        She approaches inventory challenges systematically
+        and communicates insights clearly to support
+        operational decisions.
+        <span>&#8221;</span>
+      </div>
+  
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Flora is detail-oriented and dependable when
+        analyzing business data. She can identify meaningful
+        trends, explain complex findings in simple terms,
+        and collaborate effectively with stakeholders.
+        <span>&#8221;</span>
+      </div>
+  
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Flora combines practical supply chain experience
+        with a curiosity for technology. Her willingness
+        to learn new tools and improve processes makes
+        her a valuable team contributor.
+        <span>&#8221;</span>
+      </div>
+  
+    </div>
+  </section>
+  
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    
+<!-- Home Button -->
+<div class="iconbutton">
+    <a href="#home"
+       aria-label="Back to top"
+       style="display:flex; align-items:center;
+              justify-content:center;
+              width:100%; height:100%;">
+  
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="28"
+           height="28"
+           viewBox="0 0 24 24"
+           fill="none"
+           stroke="white"
+           stroke-width="2"
+           stroke-linecap="round"
+           stroke-linejoin="round">
+  
+        <path d="m3 10 9-7 9 7"/>
+        <path d="M5 9v12h14V9"/>
+        <path d="M9 21v-7h6v7"/>
+  
+      </svg>
+    </a>
+  </div>
+  
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
